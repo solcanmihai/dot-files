@@ -1,0 +1,33 @@
+set background=dark
+syntax on
+
+inoremap jk <Esc>
+
+set number
+set relativenumber
+
+set ts=4
+set softtabstop=4
+set shiftwidth=4
+
+set showcmd
+set hlsearch 
+set incsearch
+set showmatch
+
+set autoindent
+
+inoremap " ""<Esc>i
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap ' ''<Esc>i
+
+inoremap () ()
+inoremap { {}<Esc>i<Enter><Esc>ko<Tab>
+inoremap (( ()<Enter>{}<Esc>i<Enter><Esc>ko<Tab>
+
+execute pathogen#infect()
+
+set laststatus=2
+
+let mapleader = " "
