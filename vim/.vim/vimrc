@@ -13,6 +13,12 @@ Plugin 'VundleVim/Vundle.vim'
 "" Add plugins here
 
 Plugin 'vim-airline/vim-airline'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'tpope/vim-surround'
+Plugin 'rstacruz/sparkup'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
